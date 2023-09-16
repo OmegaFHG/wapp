@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registro de Hidratação</title>
+  </head>
+  <body>
+    <p class="title">Wapp</p>
+    <div class="main">
+      <div id="container">
+        <h1>Registro de Hidratação</h1>
+        <form id="hydration-form">
+          <label for="date">Data:</label>
+          <input type="date" id="date" required /><br /><br />
+
+          <label for="amount">Quantidade de Água (ml):</label>
+          <input type="number" id="amount" required /><br /><br />
+
+          <button type="submit">Registrar</button>
+        </form>
+
+        <div id="hydration-logs">
+          <h2>Registros de Hidratação</h2>
+          <ul id="log-list">
+            <!-- Os registros serão exibidos aqui -->
+          </ul>
+          <p>Total de Água Consumida: <span id="total-amount">0</span> ml</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
