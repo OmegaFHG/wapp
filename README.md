@@ -22,5 +22,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Wapp é uma aplicação para registrar suas quantidades diarias de hidratação.
 
+Link do projeto: [https://omegafhg.github.io/wapp/]
 
 ---
