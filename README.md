@@ -1,7 +1,7 @@
 <h1 align="center"> Wapp </h1>
 
 <p align="center">
-Projeto PI Senac - TSI 2023 - Flávio Gonçalves, Thiago, Thais e Brenda. <br/>
+Projeto PI Senac - TSI 2023 - Flávio Gonçalves, Thiago Monteiro, Thais Rinaldi e Brendali da Silva. <br/>
 </p>
 
 
@@ -23,5 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O Wapp é uma aplicação para registrar suas quantidades diarias de hidratação.
 
 Link do projeto: [https://omegafhg.github.io/wapp/]
+
+Link do youtube: [https://www.youtube.com/watch?v=VqDyci7lEg4]
 
 ---

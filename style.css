@@ -8,17 +8,20 @@
 .title {
     font-size: 50px;
     color: white;
-    padding: 10px; 
+    padding: 10px;
+     
 }
 
 body {
     display: flex;
     min-height: 90vh;
     background-color: rgb(13, 11, 29);
+    
 }
 
 .main {
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
     height: auto;
     margin: auto;
     background-color: white;
@@ -36,9 +39,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 30;
+    width: 100%;
+    padding: 30px 30px 10px;
 }
 
 #hydration-logs {
@@ -60,4 +65,34 @@ button:hover {
 #total-amount {
     font-weight: bold;
     color: #3cc4da;
+}
+
+@media(max-width: 950px){
+    body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+    }
+}
+
+@media(max-width: 740px){
+    body{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 446px){
+    #container h1, #hydration-form{
+        text-align: center;
+
+    }
+    #hydration-logs p{
+        text-align: center;
+    }
+    #hydration-form{
+        margin-top: 10px;
+    }
 }
